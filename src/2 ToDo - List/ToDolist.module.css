@@ -1,0 +1,23 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.parent {
+    display: flex;
+    align-items: center;
+}
+
+.parent .icon {
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 7px;
+}
+
+.icon:hover {
+    background-color: #480048;
+    color: white;
+    border: 2px solid white;
+    border-radius: 25px;
+}
